@@ -1,0 +1,2 @@
+jQuery(document).ready(function($){$('.OneMenu').click(function(e) {var url = $(this).attr('href');var MenuWysokosc = $('nav').outerHeight();$('html, body').animate({scrollTop: $(url).offset().top - MenuWysokosc},1000);		
+e.preventDefault();});});
